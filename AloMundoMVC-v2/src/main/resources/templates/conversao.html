@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="#{pageTitle}">Conversão de Temperatura</title>
+</head>
+
+<body>
+    <table border="1" style="width: 600px; border: 1px solid black">
+        <tr>
+            <th th:text="#{celsiusLabel}" style="width: 50%; text-align: center">Celsius</th>
+            <th th:text="#{fahrenheitLabel}" style="width: 50%; text-align: center">Fahrenheit</th>
+        </tr>
+        <tr th:each="conversao : ${listaConversao}">
+            <td th:text="${conversao.celsius}" style="text-align: center"></td>
+            <td th:text="${conversao.fahrenheit}" style="text-align: center"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

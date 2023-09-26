@@ -1,0 +1,45 @@
+CREATE DATABASE Locadora;
+
+GET http://localhost:8081/filmes
+GET http://localhost:8081/filmes/produtoras/1
+GET http://localhost:8081/filmes/filtros?term=O Senhor dos Anéis
+GET http://localhost:8081/filmes/1
+POST http://localhost:8081/filmes
+    {
+        "titulo": "teste1",
+        "diretor": "Peter Jackson",
+        "ano": 2001,
+        "preco": 29.99,
+        "produtora": {
+            "id": 1,
+            "nome": "Exemplo Produtora1",
+            "cnpj": "12345678911111"
+        }
+    }
+
+DELETE http://localhost:8081/filmes/1
+PUT http://localhost:8081/filmes/4
+    {
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "diretor": "Peter Jackson",
+    "ano": 2004,
+    "preco": 29.99,
+    "produtora": {
+        "id": 2,
+        "nome": "Produtora2",
+        "sigla": "P2"
+    }
+}
+GET http://localhost:8081/produtoras
+GET http://localhost:8081/produtoras/1
+POST http://localhost:8081/produtoras
+    {
+        "CNPJ": "12345678933333",
+        "nome": "Exemplo Produtora3"
+    }
+DELETE http://localhost:8081/produtoras/1
+PUT http://localhost:8081/produtoras/2
+    {
+        "CNPJ": "12345678902222",
+        "nome": "Exemplo Produtora222"
+    }

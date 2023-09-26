@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Celsius-Fahrenheit</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <body>
+    <form action="calculadora" method="POST">
+      <fieldset>
+        <legend>Conversão Celsius-Fahrenheit</legend>
+        <label for="vmin" class="red">Valor Minimo</label><br/>
+        <input type="text" name="vmin" id="vmin" />
+        <br />
+        <br />
+        <label for="vmax" id="lB">Valor Máximo</label><br/>
+        <input type="text" name="vmax" id="vmax" />
+        <br />
+        <br/>
+        <label for="vi" id="lc">Valor Incremento</label><br/>
+        <input type="text" name="vi" id="vi" />
+        <br/>
+        <br />
+        <div id="ok">
+          <input type="submit" value="Inicializa Valores" />
+          <input type="submit" value="Solicita Conversão" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

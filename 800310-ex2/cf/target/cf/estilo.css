@@ -1,0 +1,19 @@
+form {
+    width: 610px;
+} 
+table {
+    width: 20%;
+}
+    
+th {
+    height: 50px;
+}
+    
+td {
+    text-align: center;
+    }
+
+#table1{
+    border: 1px solid black;
+}
+    

@@ -1,0 +1,16 @@
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/controller/CompraController.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/controller/EditoraController.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/util/Erro.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/domain/Livro.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/dao/UsuarioDAO.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/controller/UsuarioController.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/controller/LivroController.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/dao/CompraDAO.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/dao/LivroDAO.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/domain/Usuario.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/dao/GenericDAO.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/controller/IndexController.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/AcessaBD.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/dao/EditoraDAO.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/domain/Compra.java
+/home/matheus/Documents/web1/Livraria-v4/src/main/java/br/ufscar/dc/dsw/domain/Editora.java

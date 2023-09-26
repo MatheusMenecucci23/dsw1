@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="#{pageTitle}">Conversão de Temperatura</title>
+</head>
+
+<body>
+    <h1 th:text="#{pageTitle}">Conversão de Temperatura</h1>
+
+    <form th:action="@{/conversao}" method="POST">
+        <span th:text="#{minValue}">Mínimo:</span>
+        <br /><br />
+        <input type="number" name="minimo" value="-100">
+        <br /> <br />
+
+        <span th:text="#{maxValue}">Máximo:</span>
+        <br /><br />
+        <input type="number" name="maximo" value="100">
+        <br /> <br />
+
+        <span th:text="#{incrementValue}">Incremento:</span>
+        <br /><br />
+        <input type="number" name="incremento" value="5">
+        <br /> <br />
+
+        <button type="reset"><span th:text="#{reset}"></span></button>
+        <button type="submit"><span th:text="#{submit}"></span></button>
+    </form>
+
+</body>
+
+</html>

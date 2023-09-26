@@ -1,0 +1,12 @@
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/FilmeRSApplication.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/service/spec/IFilmeService.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/domain/Filme.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/service/impl/ProdutoraService.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/domain/Produtora.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/service/impl/FilmeService.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/dao/IFilmeDAO.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/service/spec/IProdutoraService.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/domain/AbstractEntity.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/dao/IProdutoraDAO.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/controller/ProdutoraRestController.java
+/home/matheus/Documents/web1/locadora-v1/src/main/java/br/ufscar/dc/dsw/controller/FilmeRestController.java
